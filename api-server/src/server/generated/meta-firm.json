@@ -1,0 +1,223 @@
+{
+  "companies": {
+    "arrayKey": "items",
+    "paging": [
+      "total_pages",
+      "current_page",
+      "total_items",
+      "per_page"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "fiscal_years": {
+    "arrayKey": "items",
+    "paging": [
+      "total_pages",
+      "current_page",
+      "total_items",
+      "per_page"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "dms_files": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "dms_folders": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "ledger_entries": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "changelogs_dms_files": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_ledger_entry_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_supplier_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_customer_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "supplier_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "suppliers": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "journals": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "customer_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "ledger_accounts": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "ledger_entry_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "ledger_entry_lines__lettered_ledger_entry_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "category_groups__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "category_groups": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "bank_accounts": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "transactions": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "customers": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "__aliases": {}
+}

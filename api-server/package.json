@@ -1,0 +1,23 @@
+{
+  "name": "pennylane-api-server-mock",
+  "private": true,
+  "description": "API Pennylane fictive (Company, Firm, Firm Group) : données cohérentes et persistantes servies par json-server",
+  "scripts": {
+    "start": "concurrently -k -n company,firm,firm-group \"npm:start:company\" \"npm:start:firm\" \"npm:start:firm-group\"",
+    "start:company": "node --env-file-if-exists=../.env src/server/start.mjs company",
+    "start:firm": "node --env-file-if-exists=../.env src/server/start.mjs firm",
+    "start:firm-group": "node --env-file-if-exists=../.env src/server/start.mjs firm-group",
+    "reset": "rm -rf .db",
+    "generate": "node src/generator/extract.mjs && node src/generator/build.mjs && node src/generator/validate.mjs",
+    "test": "node src/server/e2e.mjs --spawn"
+  },
+  "dependencies": {
+    "concurrently": "^10.0.5",
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "openapi-sampler": "^1.7.6"
+  }
+}

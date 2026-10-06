@@ -1,0 +1,16 @@
+{
+  "name": "pennylane-api-mock",
+  "private": true,
+  "description": "Mocks locaux de Pennylane : API (Company, Firm, Firm group) et serveur OAuth 2.0",
+  "workspaces": [
+    "api-server",
+    "oauth-server"
+  ],
+  "scripts": {
+    "start:api": "npm start -w api-server",
+    "start:oauth": "npm run build -w oauth-server && npm start -w oauth-server",
+    "dev:oauth": "npm run dev -w oauth-server",
+    "test": "npm test --workspaces",
+    "lint": "npm run lint -w oauth-server"
+  }
+}

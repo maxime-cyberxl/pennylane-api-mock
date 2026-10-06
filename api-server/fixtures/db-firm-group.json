@@ -1,0 +1,814 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "helene.delmas@delmas-associes.example",
+      "first_name": "Hélène",
+      "last_name": "Delmas",
+      "blocked_at": null,
+      "role": "accountant",
+      "authentication_method": "sso_saml",
+      "phone_number": null,
+      "sub_role": "accountant_all_companies"
+    },
+    {
+      "id": "2",
+      "email": "karim.benali@delmas-associes.example",
+      "first_name": "Karim",
+      "last_name": "Benali",
+      "blocked_at": null,
+      "role": "accountant",
+      "authentication_method": "sso_saml",
+      "phone_number": null,
+      "sub_role": "accountant"
+    },
+    {
+      "id": "3",
+      "email": "sophie.marchand@delmas-associes.example",
+      "first_name": "Sophie",
+      "last_name": "Marchand",
+      "blocked_at": null,
+      "role": "accountant",
+      "authentication_method": "sso_saml",
+      "phone_number": null,
+      "sub_role": "accountant"
+    },
+    {
+      "id": "4",
+      "email": "julien.roche@delmas-associes.example",
+      "first_name": "Julien",
+      "last_name": "Roche",
+      "blocked_at": "2026-06-12",
+      "role": "accountant",
+      "authentication_method": "sso_saml",
+      "phone_number": null,
+      "sub_role": "integrator_admin"
+    },
+    {
+      "id": "5",
+      "email": "nadia.petit@delmas-paie.example",
+      "first_name": "Nadia",
+      "last_name": "Petit",
+      "blocked_at": null,
+      "role": "accountant",
+      "authentication_method": "sso_saml",
+      "phone_number": null,
+      "sub_role": "accountant"
+    },
+    {
+      "id": "6",
+      "email": "olivier.aubert@delmas-paie.example",
+      "first_name": "Olivier",
+      "last_name": "Aubert",
+      "blocked_at": null,
+      "role": "accountant",
+      "authentication_method": "sso_saml",
+      "phone_number": null,
+      "sub_role": "accountant_all_companies"
+    },
+    {
+      "id": "11",
+      "email": "claire.lefevre@atelier-lumiere.example",
+      "first_name": "Claire",
+      "last_name": "Lefèvre",
+      "blocked_at": null,
+      "role": "customer",
+      "authentication_method": "password",
+      "phone_number": "+33472000101",
+      "sub_role": "executive"
+    },
+    {
+      "id": "12",
+      "email": "thomas.girard@atelier-lumiere.example",
+      "first_name": "Thomas",
+      "last_name": "Girard",
+      "blocked_at": null,
+      "role": "customer",
+      "authentication_method": "password",
+      "phone_number": "+33472000102",
+      "sub_role": "invoicing_manager"
+    },
+    {
+      "id": "21",
+      "email": "antoine.mercier@fournil-dore.example",
+      "first_name": "Antoine",
+      "last_name": "Mercier",
+      "blocked_at": null,
+      "role": "customer",
+      "authentication_method": "password",
+      "phone_number": "+33240000201",
+      "sub_role": "executive"
+    },
+    {
+      "id": "31",
+      "email": "claire.fontaine@kine-fontaine.example",
+      "first_name": "Claire",
+      "last_name": "Fontaine",
+      "blocked_at": null,
+      "role": "customer",
+      "authentication_method": "password",
+      "phone_number": "+33561000301",
+      "sub_role": "executive"
+    },
+    {
+      "id": "41",
+      "email": "etienne.delmas@holding-delmas.example",
+      "first_name": "Étienne",
+      "last_name": "Delmas",
+      "blocked_at": null,
+      "role": "customer",
+      "authentication_method": "password",
+      "phone_number": "+33472000401",
+      "sub_role": "executive"
+    },
+    {
+      "id": "51",
+      "email": "luc.moreau@garage-moreau.example",
+      "first_name": "Luc",
+      "last_name": "Moreau",
+      "blocked_at": null,
+      "role": "customer",
+      "authentication_method": "password",
+      "phone_number": "+33241000501",
+      "sub_role": "executive"
+    },
+    {
+      "id": "61",
+      "email": "ines.bellevue@bellevue-epicerie.example",
+      "first_name": "Inès",
+      "last_name": "Bellevue",
+      "blocked_at": null,
+      "role": "customer",
+      "authentication_method": "password",
+      "phone_number": "+33247000601",
+      "sub_role": "executive"
+    }
+  ],
+  "firms": [
+    {
+      "id": "1",
+      "name": "Cabinet Delmas & Associés",
+      "reg_no": "552081317"
+    },
+    {
+      "id": "2",
+      "name": "Delmas Paie & Social",
+      "reg_no": "592035521"
+    }
+  ],
+  "firms__users": [
+    {
+      "id": "1",
+      "first_name": "Hélène",
+      "last_name": "Delmas",
+      "email": "helene.delmas@delmas-associes.example",
+      "blocked_at": null,
+      "_parent": "1"
+    },
+    {
+      "id": "2",
+      "first_name": "Karim",
+      "last_name": "Benali",
+      "email": "karim.benali@delmas-associes.example",
+      "blocked_at": null,
+      "_parent": "1"
+    },
+    {
+      "id": "3",
+      "first_name": "Sophie",
+      "last_name": "Marchand",
+      "email": "sophie.marchand@delmas-associes.example",
+      "blocked_at": null,
+      "_parent": "1"
+    },
+    {
+      "id": "4",
+      "first_name": "Julien",
+      "last_name": "Roche",
+      "email": "julien.roche@delmas-associes.example",
+      "blocked_at": "2026-06-12",
+      "_parent": "1"
+    },
+    {
+      "id": "5",
+      "first_name": "Nadia",
+      "last_name": "Petit",
+      "email": "nadia.petit@delmas-paie.example",
+      "blocked_at": null,
+      "_parent": "2"
+    },
+    {
+      "id": "6",
+      "first_name": "Olivier",
+      "last_name": "Aubert",
+      "email": "olivier.aubert@delmas-paie.example",
+      "blocked_at": null,
+      "_parent": "2"
+    }
+  ],
+  "companies": [
+    {
+      "id": "101",
+      "reg_no": "211168653",
+      "name": "Atelier Lumière SAS",
+      "trade_name": "Atelier Lumière",
+      "address": "14 rue de la Martinière",
+      "city": "Lyon",
+      "postal_code": "69001",
+      "country_alpha2": "FR",
+      "saas_plan": "pennylane_premium",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rn",
+      "legal_form_code": "5710",
+      "vat_frequency": "monthly",
+      "vat_day_of_month": 21,
+      "tos_accepted_at": "2025-01-01T09:14:22.480213Z",
+      "churns_on": null,
+      "firm_id": "1",
+      "not_yet_registered": false,
+      "accounting_manager_id": "2",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "supplier_invoice_transmission_emails": [
+        "lumiere@suppliers.pennylane.example"
+      ],
+      "customer_invoice_transmission_emails": [
+        "lumiere@customers.pennylane.example"
+      ],
+      "fiscal_years": [
+        {
+          "id": 1011,
+          "start": "2025-01-01",
+          "finish": "2025-12-31",
+          "closed_at": "2026-03-18 09:54:27 UTC"
+        },
+        {
+          "id": 1012,
+          "start": "2026-01-01",
+          "finish": "2026-12-31",
+          "closed_at": null
+        }
+      ],
+      "file_type": "revision"
+    },
+    {
+      "id": "102",
+      "reg_no": "585309123",
+      "name": "Boulangerie Le Fournil Doré SARL",
+      "trade_name": "Le Fournil Doré",
+      "address": "3 place du Marché",
+      "city": "Nantes",
+      "postal_code": "44000",
+      "country_alpha2": "FR",
+      "saas_plan": "pennylane_essentiel",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rsi",
+      "legal_form_code": "5499",
+      "vat_frequency": "quarterly",
+      "vat_day_of_month": 24,
+      "tos_accepted_at": "2026-01-01T09:14:22.480213Z",
+      "churns_on": null,
+      "firm_id": "1",
+      "not_yet_registered": false,
+      "accounting_manager_id": "3",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "supplier_invoice_transmission_emails": [
+        "fournil@suppliers.pennylane.example"
+      ],
+      "customer_invoice_transmission_emails": [
+        "fournil@customers.pennylane.example"
+      ],
+      "fiscal_years": [
+        {
+          "id": 1021,
+          "start": "2026-01-01",
+          "finish": "2026-12-31",
+          "closed_at": null
+        }
+      ],
+      "file_type": "revision"
+    },
+    {
+      "id": "103",
+      "reg_no": "847788460",
+      "name": "Kiné Fontaine SELARL",
+      "trade_name": "Cabinet de kinésithérapie Fontaine",
+      "address": "27 avenue Jean Jaurès",
+      "city": "Toulouse",
+      "postal_code": "31000",
+      "country_alpha2": "FR",
+      "saas_plan": "pennylane_essentiel",
+      "fiscal_category": "bnc",
+      "fiscal_regime": "fr_rsi",
+      "legal_form_code": "5485",
+      "vat_frequency": "not_applicable",
+      "vat_day_of_month": 21,
+      "tos_accepted_at": "2026-07-01T09:14:22.480213Z",
+      "churns_on": null,
+      "firm_id": "1",
+      "not_yet_registered": false,
+      "accounting_manager_id": "2",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "supplier_invoice_transmission_emails": [
+        "fontaine@suppliers.pennylane.example"
+      ],
+      "customer_invoice_transmission_emails": [
+        "fontaine@customers.pennylane.example"
+      ],
+      "fiscal_years": [
+        {
+          "id": 1031,
+          "start": "2026-07-01",
+          "finish": "2026-12-31",
+          "closed_at": null
+        }
+      ],
+      "file_type": "revision"
+    },
+    {
+      "id": "104",
+      "reg_no": "406991349",
+      "name": "Holding Delmas SAS",
+      "trade_name": "Holding Delmas",
+      "address": "8 rue Childebert",
+      "city": "Lyon",
+      "postal_code": "69002",
+      "country_alpha2": "FR",
+      "saas_plan": "pennylane_essentiel",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rn",
+      "legal_form_code": "5710",
+      "vat_frequency": "not_applicable",
+      "vat_day_of_month": 21,
+      "tos_accepted_at": "2026-09-01T09:14:22.480213Z",
+      "churns_on": null,
+      "firm_id": "1",
+      "not_yet_registered": false,
+      "accounting_manager_id": "1",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "supplier_invoice_transmission_emails": [
+        "holding@suppliers.pennylane.example"
+      ],
+      "customer_invoice_transmission_emails": [
+        "holding@customers.pennylane.example"
+      ],
+      "fiscal_years": [
+        {
+          "id": 1041,
+          "start": "2026-09-01",
+          "finish": "2026-12-31",
+          "closed_at": null
+        }
+      ],
+      "file_type": "revision"
+    },
+    {
+      "id": "105",
+      "reg_no": "217949338",
+      "name": "Garage Moreau SARL",
+      "trade_name": "Garage Moreau Automobiles",
+      "address": "52 route de Vaugirard",
+      "city": "Angers",
+      "postal_code": "49000",
+      "country_alpha2": "FR",
+      "saas_plan": "pennylane_premium",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rn",
+      "legal_form_code": "5499",
+      "vat_frequency": "monthly",
+      "vat_day_of_month": 19,
+      "tos_accepted_at": "2025-01-01T09:14:22.480213Z",
+      "churns_on": null,
+      "firm_id": "2",
+      "not_yet_registered": false,
+      "accounting_manager_id": "6",
+      "accounting_supervisor_id": "6",
+      "accountant_id": "5",
+      "supplier_invoice_transmission_emails": [
+        "105@suppliers.pennylane.example"
+      ],
+      "customer_invoice_transmission_emails": [
+        "105@customers.pennylane.example"
+      ],
+      "fiscal_years": [
+        {
+          "id": 1051,
+          "start": "2026-01-01",
+          "finish": "2026-12-31",
+          "closed_at": null
+        }
+      ],
+      "file_type": "revision"
+    },
+    {
+      "id": "106",
+      "reg_no": "288542616",
+      "name": "Épicerie Fine Bellevue SAS",
+      "trade_name": "Bellevue Épicerie Fine",
+      "address": "9 rue des Halles",
+      "city": "Tours",
+      "postal_code": "37000",
+      "country_alpha2": "FR",
+      "saas_plan": "pennylane_essentiel",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rsi",
+      "legal_form_code": "5710",
+      "vat_frequency": "quarterly",
+      "vat_day_of_month": 24,
+      "tos_accepted_at": "2025-01-01T09:14:22.480213Z",
+      "churns_on": "2026-12-31",
+      "firm_id": "2",
+      "not_yet_registered": false,
+      "accounting_manager_id": "6",
+      "accounting_supervisor_id": null,
+      "accountant_id": "5",
+      "supplier_invoice_transmission_emails": [
+        "106@suppliers.pennylane.example"
+      ],
+      "customer_invoice_transmission_emails": [
+        "106@customers.pennylane.example"
+      ],
+      "fiscal_years": [
+        {
+          "id": 1061,
+          "start": "2026-01-01",
+          "finish": "2026-12-31",
+          "closed_at": null
+        }
+      ],
+      "file_type": "revision"
+    }
+  ],
+  "firms__companies": [
+    {
+      "id": "101",
+      "reg_no": "211168653",
+      "name": "Atelier Lumière SAS",
+      "trade_name": "Atelier Lumière",
+      "address": "14 rue de la Martinière",
+      "city": "Lyon",
+      "postal_code": "69001",
+      "country_alpha2": "FR",
+      "not_yet_registered": false,
+      "accounting_manager_id": "2",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rn",
+      "legal_form_code": "5710",
+      "vat_frequency": "monthly",
+      "vat_day_of_month": 21,
+      "_parent": "1"
+    },
+    {
+      "id": "102",
+      "reg_no": "585309123",
+      "name": "Boulangerie Le Fournil Doré SARL",
+      "trade_name": "Le Fournil Doré",
+      "address": "3 place du Marché",
+      "city": "Nantes",
+      "postal_code": "44000",
+      "country_alpha2": "FR",
+      "not_yet_registered": false,
+      "accounting_manager_id": "3",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rsi",
+      "legal_form_code": "5499",
+      "vat_frequency": "quarterly",
+      "vat_day_of_month": 24,
+      "_parent": "1"
+    },
+    {
+      "id": "103",
+      "reg_no": "847788460",
+      "name": "Kiné Fontaine SELARL",
+      "trade_name": "Cabinet de kinésithérapie Fontaine",
+      "address": "27 avenue Jean Jaurès",
+      "city": "Toulouse",
+      "postal_code": "31000",
+      "country_alpha2": "FR",
+      "not_yet_registered": false,
+      "accounting_manager_id": "2",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "fiscal_category": "bnc",
+      "fiscal_regime": "fr_rsi",
+      "legal_form_code": "5485",
+      "vat_frequency": "not_applicable",
+      "vat_day_of_month": 21,
+      "_parent": "1"
+    },
+    {
+      "id": "104",
+      "reg_no": "406991349",
+      "name": "Holding Delmas SAS",
+      "trade_name": "Holding Delmas",
+      "address": "8 rue Childebert",
+      "city": "Lyon",
+      "postal_code": "69002",
+      "country_alpha2": "FR",
+      "not_yet_registered": false,
+      "accounting_manager_id": "1",
+      "accounting_supervisor_id": null,
+      "accountant_id": "1",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rn",
+      "legal_form_code": "5710",
+      "vat_frequency": "not_applicable",
+      "vat_day_of_month": 21,
+      "_parent": "1"
+    },
+    {
+      "id": "105",
+      "reg_no": "217949338",
+      "name": "Garage Moreau SARL",
+      "trade_name": "Garage Moreau Automobiles",
+      "address": "52 route de Vaugirard",
+      "city": "Angers",
+      "postal_code": "49000",
+      "country_alpha2": "FR",
+      "not_yet_registered": false,
+      "accounting_manager_id": "6",
+      "accounting_supervisor_id": "6",
+      "accountant_id": "5",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rn",
+      "legal_form_code": "5499",
+      "vat_frequency": "monthly",
+      "vat_day_of_month": 19,
+      "_parent": "2"
+    },
+    {
+      "id": "106",
+      "reg_no": "288542616",
+      "name": "Épicerie Fine Bellevue SAS",
+      "trade_name": "Bellevue Épicerie Fine",
+      "address": "9 rue des Halles",
+      "city": "Tours",
+      "postal_code": "37000",
+      "country_alpha2": "FR",
+      "not_yet_registered": false,
+      "accounting_manager_id": "6",
+      "accounting_supervisor_id": null,
+      "accountant_id": "5",
+      "fiscal_category": "bic_is",
+      "fiscal_regime": "fr_rsi",
+      "legal_form_code": "5710",
+      "vat_frequency": "quarterly",
+      "vat_day_of_month": 24,
+      "_parent": "2"
+    }
+  ],
+  "companies__users": [
+    {
+      "id": "11",
+      "first_name": "Claire",
+      "last_name": "Lefèvre",
+      "email": "claire.lefevre@atelier-lumiere.example",
+      "role": "executive",
+      "blocked_at": null,
+      "_parent": "101"
+    },
+    {
+      "id": "12",
+      "first_name": "Thomas",
+      "last_name": "Girard",
+      "email": "thomas.girard@atelier-lumiere.example",
+      "role": "invoicing_manager",
+      "blocked_at": null,
+      "_parent": "101"
+    },
+    {
+      "id": "1",
+      "first_name": "Hélène",
+      "last_name": "Delmas",
+      "email": "helene.delmas@delmas-associes.example",
+      "role": "accountant_all_companies",
+      "blocked_at": null,
+      "_parent": "101"
+    },
+    {
+      "id": "2",
+      "first_name": "Karim",
+      "last_name": "Benali",
+      "email": "karim.benali@delmas-associes.example",
+      "role": "accountant",
+      "blocked_at": null,
+      "_parent": "101"
+    },
+    {
+      "id": "21",
+      "first_name": "Antoine",
+      "last_name": "Mercier",
+      "email": "antoine.mercier@fournil-dore.example",
+      "role": "executive",
+      "blocked_at": null,
+      "_parent": "102"
+    },
+    {
+      "id": "1",
+      "first_name": "Hélène",
+      "last_name": "Delmas",
+      "email": "helene.delmas@delmas-associes.example",
+      "role": "accountant_all_companies",
+      "blocked_at": null,
+      "_parent": "102"
+    },
+    {
+      "id": "3",
+      "first_name": "Sophie",
+      "last_name": "Marchand",
+      "email": "sophie.marchand@delmas-associes.example",
+      "role": "accountant",
+      "blocked_at": null,
+      "_parent": "102"
+    },
+    {
+      "id": "31",
+      "first_name": "Claire",
+      "last_name": "Fontaine",
+      "email": "claire.fontaine@kine-fontaine.example",
+      "role": "executive",
+      "blocked_at": null,
+      "_parent": "103"
+    },
+    {
+      "id": "1",
+      "first_name": "Hélène",
+      "last_name": "Delmas",
+      "email": "helene.delmas@delmas-associes.example",
+      "role": "accountant_all_companies",
+      "blocked_at": null,
+      "_parent": "103"
+    },
+    {
+      "id": "2",
+      "first_name": "Karim",
+      "last_name": "Benali",
+      "email": "karim.benali@delmas-associes.example",
+      "role": "accountant",
+      "blocked_at": null,
+      "_parent": "103"
+    },
+    {
+      "id": "41",
+      "first_name": "Étienne",
+      "last_name": "Delmas",
+      "email": "etienne.delmas@holding-delmas.example",
+      "role": "executive",
+      "blocked_at": null,
+      "_parent": "104"
+    },
+    {
+      "id": "1",
+      "first_name": "Hélène",
+      "last_name": "Delmas",
+      "email": "helene.delmas@delmas-associes.example",
+      "role": "accountant_all_companies",
+      "blocked_at": null,
+      "_parent": "104"
+    },
+    {
+      "id": "51",
+      "first_name": "Luc",
+      "last_name": "Moreau",
+      "email": "luc.moreau@garage-moreau.example",
+      "role": "executive",
+      "blocked_at": null,
+      "_parent": "105"
+    },
+    {
+      "id": "5",
+      "first_name": "Nadia",
+      "last_name": "Petit",
+      "email": "nadia.petit@delmas-paie.example",
+      "role": "accountant",
+      "blocked_at": null,
+      "_parent": "105"
+    },
+    {
+      "id": "6",
+      "first_name": "Olivier",
+      "last_name": "Aubert",
+      "email": "olivier.aubert@delmas-paie.example",
+      "role": "accountant_all_companies",
+      "blocked_at": null,
+      "_parent": "105"
+    },
+    {
+      "id": "61",
+      "first_name": "Inès",
+      "last_name": "Bellevue",
+      "email": "ines.bellevue@bellevue-epicerie.example",
+      "role": "executive",
+      "blocked_at": null,
+      "_parent": "106"
+    },
+    {
+      "id": "5",
+      "first_name": "Nadia",
+      "last_name": "Petit",
+      "email": "nadia.petit@delmas-paie.example",
+      "role": "accountant",
+      "blocked_at": null,
+      "_parent": "106"
+    },
+    {
+      "id": "6",
+      "first_name": "Olivier",
+      "last_name": "Aubert",
+      "email": "olivier.aubert@delmas-paie.example",
+      "role": "accountant_all_companies",
+      "blocked_at": null,
+      "_parent": "106"
+    }
+  ],
+  "webhook_subscriptions": [
+    {
+      "id": 1,
+      "url": "http://localhost:5678/webhook/pennylane-firm",
+      "events": [
+        "company_created",
+        "company_updated",
+        "user_created",
+        "user_updated"
+      ],
+      "active": true,
+      "secret": "whsec_4f9c1d7e2b8a4c6fa3d05e91b7c2d8f1"
+    },
+    {
+      "id": 2,
+      "url": "https://hooks.example/transfers",
+      "events": [
+        "transfer_request_created",
+        "transfer_request_updated"
+      ],
+      "active": false,
+      "secret": "whsec_b81e3a5c9d2f47e0a6c14d3b5f7e9a20"
+    }
+  ],
+  "transfer_requests_list_inbound": [
+    {
+      "id": "tr_7f3a91",
+      "status": "pending",
+      "error": null,
+      "answered_at": null,
+      "transfered_at": null,
+      "transfer_type": "full",
+      "sender_firm_name": "Cabinet Aubry Conseil",
+      "recipient_firm_name": "Cabinet Delmas & Associés",
+      "source_company_id": "88412",
+      "company_name": "SCI Les Tilleuls"
+    },
+    {
+      "id": "tr_2c8e04",
+      "status": "finished",
+      "error": null,
+      "answered_at": "2026-05-06T09:41:12.000Z",
+      "transfered_at": "2026-05-07T02:10:45.000Z",
+      "transfer_type": "full",
+      "sender_firm_name": "Expertise Loire Audit",
+      "recipient_firm_name": "Cabinet Delmas & Associés",
+      "source_company_id": "77120",
+      "company_name": "Kiné Fontaine SELARL"
+    }
+  ],
+  "transfer_requests_list_outbound": [
+    {
+      "id": "tr_9d1b57",
+      "status": "accepted",
+      "error": null,
+      "answered_at": "2026-09-12T14:03:30.000Z",
+      "transfered_at": null,
+      "transfer_type": "full",
+      "sender_firm_name": "Delmas Paie & Social",
+      "destination_company_id": "106",
+      "company_name": "Épicerie Fine Bellevue SAS"
+    },
+    {
+      "id": "tr_5a6e32",
+      "status": "failed",
+      "error": "destination_firm_not_found",
+      "answered_at": null,
+      "transfered_at": null,
+      "transfer_type": "full",
+      "sender_firm_name": "Cabinet Delmas & Associés",
+      "destination_company_id": "104",
+      "company_name": "Holding Delmas SAS"
+    }
+  ],
+  "me": {
+    "first_name": "Hélène",
+    "last_name": "Delmas",
+    "email": "helene.delmas@delmas-associes.example",
+    "permitted_authentication_methods": [
+      "password",
+      "sso_saml"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+**/node_modules
+**/dist
+**/.env
+api-server/.db
+api-server/.db-e2e
+**/*.md

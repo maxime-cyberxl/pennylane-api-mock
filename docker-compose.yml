@@ -1,0 +1,42 @@
+# Mocks Pennylane. Lancement : `docker compose up` dans ce dossier (inclus aussi par le docker-compose.yml racine).
+# Configuration commune et facultative : .env (voir .env.example).
+
+services:
+  # Les 3 API Pennylane (Company v2, Firm v1, Firm group v3), données fictives cohérentes
+  pennylane-mock:
+    build:
+      context: .
+      dockerfile: api-server/Dockerfile
+    container_name: pennylane-mock
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      MOCK_HOST: 0.0.0.0
+      # Vérification des tokens OAuth auprès de pennylane-oauth-mock
+      OAUTH_INTROSPECTION_URL: http://pennylane-oauth-mock:3000/_mock/introspect
+    ports:
+      - "4010-4012:4010-4012"
+    volumes:
+      - mock_db:/app/api-server/.db
+
+  # Point d'entrée unique, comme app.pennylane.com : /oauth/* et les 3 API (relayées vers pennylane-mock)
+  pennylane-oauth-mock:
+    build:
+      context: .
+      dockerfile: oauth-server/Dockerfile
+    container_name: pennylane-oauth-mock
+    restart: unless-stopped
+    ports:
+      - "${OAUTH_MOCK_HOST_PORT:-3000}:3000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      OAUTH_HOST: 0.0.0.0
+      OAUTH_PORT: 3000
+      API_SERVER_HOST: pennylane-mock
+
+volumes:
+  mock_db:

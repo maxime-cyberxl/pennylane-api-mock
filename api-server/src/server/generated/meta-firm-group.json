@@ -1,0 +1,103 @@
+{
+  "me": {
+    "arrayKey": null,
+    "paging": [],
+    "sort": null,
+    "limitMax": 100
+  },
+  "firms": {
+    "arrayKey": "firms",
+    "paging": [
+      "total_pages",
+      "current_page"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "firms__users": {
+    "arrayKey": "users",
+    "paging": [
+      "total_pages",
+      "current_page"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "firms__companies": {
+    "arrayKey": "companies",
+    "paging": [
+      "total_pages",
+      "current_page"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "companies": {
+    "arrayKey": "companies",
+    "paging": [
+      "total_pages",
+      "current_page"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [
+      "firm_id",
+      "not_yet_registered",
+      "accounting_manager_id",
+      "accounting_supervisor_id",
+      "accountant_id",
+      "supplier_invoice_transmission_emails",
+      "customer_invoice_transmission_emails",
+      "fiscal_years",
+      "file_type"
+    ],
+    "listOnly": []
+  },
+  "companies__users": {
+    "arrayKey": "users",
+    "paging": [
+      "total_pages",
+      "current_page"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "users": {
+    "arrayKey": "users",
+    "paging": [
+      "total_pages",
+      "current_page"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "webhook_subscriptions": {
+    "arrayKey": "webhook_subscriptions",
+    "paging": [],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [
+      "secret"
+    ],
+    "listOnly": []
+  },
+  "transfer_requests_list_inbound": {
+    "arrayKey": "inbound_transfer_requests",
+    "paging": [
+      "pagination"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "transfer_requests_list_outbound": {
+    "arrayKey": "outbound_transfer_requests",
+    "paging": [
+      "pagination"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "__aliases": {}
+}

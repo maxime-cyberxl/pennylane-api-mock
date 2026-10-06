@@ -1,0 +1,683 @@
+{
+  "webhook_subscriptions": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "journals": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "ledger_accounts": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "ledger_entries": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [
+      "ledger_entry_lines"
+    ],
+    "listOnly": [
+      "journal_id",
+      "ledger_attachment_filename"
+    ]
+  },
+  "ledger_entries__ledger_entry_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "ledger_entries__dms_files": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "ledger_entry_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "ledger_entry_lines__lettered_ledger_entry_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "ledger_entry_lines__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "customer_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor",
+      "included"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "billing_subscriptions": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "billing_subscriptions__invoice_line_sections": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "billing_subscriptions__invoice_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "pa_registrations": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "products": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "customer_invoice_templates": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "customers": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "customers__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "customers__contacts": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "suppliers": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "suppliers__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "company_features": {
+    "arrayKey": null,
+    "paging": [],
+    "sort": null,
+    "limitMax": 100
+  },
+  "me": {
+    "arrayKey": null,
+    "paging": [],
+    "sort": null,
+    "limitMax": 100
+  },
+  "customer_invoices__invoice_line_sections": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "customer_invoices__invoice_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "customer_invoices__installments": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "customer_invoices__payments": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "customer_invoices__matched_transactions": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "customer_invoices__appendices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "customer_invoices__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "supplier_invoices__invoice_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "supplier_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "supplier_invoices__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "supplier_invoices__payments": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "supplier_invoices__matched_transactions": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "category_groups": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "category_groups__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "fiscal_years": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "numberings": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "changelogs_customer_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_supplier_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_customers": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_suppliers": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_products": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_ledger_entry_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_transactions": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_quotes": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_ledger_entry_lines_categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "changelogs_ledger_entries_categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 1000
+  },
+  "bank_accounts": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "transactions": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "transactions__categories": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "transactions__matched_invoices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "quotes": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "quotes__appendices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "quotes__invoice_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "quotes__invoice_line_sections": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "commercial_documents": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "commercial_documents__appendices": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": null,
+    "limitMax": 100
+  },
+  "commercial_documents__invoice_lines": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "commercial_documents__invoice_line_sections": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "sepa_mandates": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "gocardless_mandates": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "pro_account_mandate_migrations": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "pro_account_mandates": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "customer_invoices__custom_header_fields": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "purchase_requests": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100,
+    "detailOnly": [],
+    "listOnly": []
+  },
+  "bank_establishments": {
+    "arrayKey": "items",
+    "paging": [
+      "has_more",
+      "next_cursor"
+    ],
+    "sort": "-id",
+    "limitMax": 100
+  },
+  "__aliases": {
+    "company_customers": {
+      "name": "company_customers",
+      "type": "company",
+      "hide": [
+        "customer_type"
+      ]
+    },
+    "individual_customers": {
+      "name": "individual_customers",
+      "type": "individual",
+      "hide": [
+        "vat_number",
+        "reg_no",
+        "customer_type"
+      ]
+    }
+  }
+}

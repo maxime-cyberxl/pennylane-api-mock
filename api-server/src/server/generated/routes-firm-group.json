@@ -1,0 +1,15 @@
+{
+  "/api/firm/v3/me": "/me",
+  "/api/firm/v3/firms": "/firms",
+  "/api/firm/v3/firms/:id/users": "/firms__users?_parent=:id",
+  "/api/firm/v3/firms/:id/companies": "/firms__companies?_parent=:id",
+  "/api/firm/v3/companies": "/companies",
+  "/api/firm/v3/companies/:id/users": "/companies__users?_parent=:id",
+  "/api/firm/v3/companies/:id": "/companies/:id",
+  "/api/firm/v3/users": "/users",
+  "/api/firm/v3/users/:id": "/users/:id",
+  "/api/firm/v3/webhook_subscriptions": "/webhook_subscriptions",
+  "/api/firm/v3/webhook_subscriptions/:id": "/webhook_subscriptions/:id",
+  "/api/firm/v3/transfer_requests/list_inbound": "/transfer_requests_list_inbound",
+  "/api/firm/v3/transfer_requests/list_outbound": "/transfer_requests_list_outbound"
+}

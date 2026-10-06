@@ -1,0 +1,1308 @@
+[
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/journals/?$",
+  "scopes": [
+   "journals:readonly",
+   "journals:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/journals/?$",
+  "scopes": [
+   "journals:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/journals/[^/]+/?$",
+  "scopes": [
+   "journals:readonly",
+   "journals:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_accounts/?$",
+  "scopes": [
+   "ledger_accounts:readonly",
+   "ledger_accounts:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/ledger_accounts/?$",
+  "scopes": [
+   "ledger_accounts:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_accounts/[^/]+/?$",
+  "scopes": [
+   "ledger_accounts:readonly",
+   "ledger_accounts:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/ledger_accounts/[^/]+/?$",
+  "scopes": [
+   "ledger_accounts:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/ledger_attachments/?$",
+  "scopes": [
+   "ledger"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entries/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/ledger_entries/?$",
+  "scopes": [
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entries/[^/]+/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/ledger_entries/[^/]+/?$",
+  "scopes": [
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entries/[^/]+/ledger_entry_lines/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entries/[^/]+/dms_files/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entry_lines/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entry_lines/[^/]+/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/ledger_entry_lines/lettering/?$",
+  "scopes": [
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "re": "^/api/external/v2/ledger_entry_lines/lettering/?$",
+  "scopes": [
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entry_lines/[^/]+/lettered_ledger_entry_lines/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/ledger_entry_lines/[^/]+/categories/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/ledger_entry_lines/[^/]+/categories/?$",
+  "scopes": [
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/import/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/e_invoices/imports/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/send_to_pa/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/create_from_quote/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/billing_subscriptions/?$",
+  "scopes": [
+   "billing_subscriptions:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/billing_subscriptions/?$",
+  "scopes": [
+   "billing_subscriptions:all",
+   "billing_subscriptions:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/billing_subscriptions/[^/]+/?$",
+  "scopes": [
+   "billing_subscriptions:all",
+   "billing_subscriptions:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/billing_subscriptions/[^/]+/?$",
+  "scopes": [
+   "billing_subscriptions:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/billing_subscriptions/[^/]+/invoice_line_sections/?$",
+  "scopes": [
+   "billing_subscriptions:all",
+   "billing_subscriptions:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/billing_subscriptions/[^/]+/invoice_lines/?$",
+  "scopes": [
+   "billing_subscriptions:all",
+   "billing_subscriptions:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/pa_registrations/?$",
+  "scopes": [
+   "pa_registrations:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/products/?$",
+  "scopes": [
+   "products:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/products/?$",
+  "scopes": [
+   "products:all",
+   "products:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/products/[^/]+/?$",
+  "scopes": [
+   "products:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/products/[^/]+/?$",
+  "scopes": [
+   "products:all",
+   "products:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/file_attachments/?$",
+  "scopes": [
+   "file_attachments:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoice_templates/?$",
+  "scopes": [
+   "customer_invoice_templates:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/exports/analytical_general_ledgers/?$",
+  "scopes": [
+   "exports:agl"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/exports/analytical_general_ledgers/[^/]+/?$",
+  "scopes": [
+   "exports:agl"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/exports/fecs/?$",
+  "scopes": [
+   "exports:fec"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/exports/fecs/[^/]+/?$",
+  "scopes": [
+   "exports:fec"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/exports/general_ledgers/?$",
+  "scopes": [
+   "exports:gl"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/exports/general_ledgers/[^/]+/?$",
+  "scopes": [
+   "exports:gl"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/company_customers/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/company_customers/[^/]+/?$",
+  "scopes": [
+   "customers:all",
+   "customers:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/company_customers/[^/]+/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/individual_customers/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/individual_customers/[^/]+/?$",
+  "scopes": [
+   "customers:all",
+   "customers:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/individual_customers/[^/]+/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customers/?$",
+  "scopes": [
+   "customers:all",
+   "customers:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customers/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customers/[^/]+/?$",
+  "scopes": [
+   "customers:all",
+   "customers:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customers/[^/]+/categories/?$",
+  "scopes": [
+   "customers:readonly",
+   "customers:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customers/[^/]+/categories/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customers/[^/]+/contacts/?$",
+  "scopes": [
+   "customers:all",
+   "customers:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customers/[^/]+/contacts/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customers/[^/]+/contacts/[^/]+/?$",
+  "scopes": [
+   "customers:all",
+   "customers:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customers/[^/]+/contacts/[^/]+/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "re": "^/api/external/v2/customers/[^/]+/contacts/[^/]+/?$",
+  "scopes": [
+   "customers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/suppliers/?$",
+  "scopes": [
+   "suppliers:all",
+   "suppliers:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/suppliers/?$",
+  "scopes": [
+   "suppliers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/suppliers/[^/]+/?$",
+  "scopes": [
+   "suppliers:all",
+   "suppliers:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/suppliers/[^/]+/?$",
+  "scopes": [
+   "suppliers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/suppliers/[^/]+/categories/?$",
+  "scopes": [
+   "suppliers:readonly",
+   "suppliers:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/suppliers/[^/]+/categories/?$",
+  "scopes": [
+   "suppliers:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/invoice_line_sections/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/invoice_lines/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/installments/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/installments/[^/]+/mark_as_paid/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/payments/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/matched_transactions/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/matched_transactions/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/matched_transactions/[^/]+/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/appendices/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/appendices/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/mark_as_paid/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/send_by_email/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/categories/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/categories/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/update_imported/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/finalize/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/link_credit_note/?$",
+  "scopes": [
+   "customer_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/invoice_lines/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/supplier_invoices/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/categories/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/categories/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/payments/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/payment_status/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/matched_transactions/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/matched_transactions/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/matched_transactions/[^/]+/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/linked_purchase_requests/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/supplier_invoices/import/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/supplier_invoices/e_invoices/imports/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/validate_accounting/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/supplier_invoices/[^/]+/e_invoice_status/?$",
+  "scopes": [
+   "supplier_invoices:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/category_groups/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/category_groups/?$",
+  "scopes": [
+   "categories:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/category_groups/[^/]+/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/category_groups/[^/]+/?$",
+  "scopes": [
+   "categories:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/category_groups/[^/]+/categories/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/categories/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/categories/?$",
+  "scopes": [
+   "categories:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/categories/[^/]+/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/categories/[^/]+/?$",
+  "scopes": [
+   "categories:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/trial_balance/?$",
+  "scopes": [
+   "trial_balance:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/fiscal_years/?$",
+  "scopes": [
+   "fiscal_years:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/numberings/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly",
+   "quotes:all",
+   "quotes:readonly",
+   "commercial_documents:all",
+   "commercial_documents:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/customer_invoices/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/supplier_invoices/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/customers/?$",
+  "scopes": [
+   "customers:all",
+   "customers:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/suppliers/?$",
+  "scopes": [
+   "suppliers:all",
+   "suppliers:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/products/?$",
+  "scopes": [
+   "products:all",
+   "products:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/ledger_entry_lines/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/transactions/?$",
+  "scopes": [
+   "transactions:all",
+   "transactions:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/quotes/?$",
+  "scopes": [
+   "quotes:all",
+   "quotes:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/ledger_entry_lines_categories/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/changelogs/ledger_entries_categories/?$",
+  "scopes": [
+   "ledger_entries:readonly",
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/bank_accounts/?$",
+  "scopes": [
+   "bank_accounts:all",
+   "bank_accounts:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/bank_accounts/?$",
+  "scopes": [
+   "bank_accounts:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/bank_accounts/[^/]+/?$",
+  "scopes": [
+   "bank_accounts:all",
+   "bank_accounts:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/transactions/?$",
+  "scopes": [
+   "transactions:readonly",
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/transactions/?$",
+  "scopes": [
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/transactions/[^/]+/?$",
+  "scopes": [
+   "transactions:readonly",
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/transactions/[^/]+/?$",
+  "scopes": [
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/transactions/[^/]+/categories/?$",
+  "scopes": [
+   "transactions:readonly",
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/transactions/[^/]+/categories/?$",
+  "scopes": [
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/transactions/[^/]+/matched_invoices/?$",
+  "scopes": [
+   "transactions:readonly",
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/quotes/?$",
+  "scopes": [
+   "quotes:all",
+   "quotes:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/quotes/?$",
+  "scopes": [
+   "quotes:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/quotes/[^/]+/?$",
+  "scopes": [
+   "quotes:all",
+   "quotes:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/quotes/[^/]+/?$",
+  "scopes": [
+   "quotes:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/quotes/[^/]+/appendices/?$",
+  "scopes": [
+   "quotes:all",
+   "quotes:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/quotes/[^/]+/appendices/?$",
+  "scopes": [
+   "quotes:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/quotes/[^/]+/invoice_lines/?$",
+  "scopes": [
+   "quotes:all",
+   "quotes:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/quotes/[^/]+/invoice_line_sections/?$",
+  "scopes": [
+   "quotes:all",
+   "quotes:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/quotes/[^/]+/send_by_email/?$",
+  "scopes": [
+   "quotes:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/quotes/[^/]+/update_status/?$",
+  "scopes": [
+   "quotes:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/commercial_documents/?$",
+  "scopes": [
+   "commercial_documents:all",
+   "commercial_documents:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/commercial_documents/?$",
+  "scopes": [
+   "commercial_documents:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/commercial_documents/[^/]+/?$",
+  "scopes": [
+   "commercial_documents:all",
+   "commercial_documents:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/commercial_documents/[^/]+/?$",
+  "scopes": [
+   "commercial_documents:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/commercial_documents/[^/]+/appendices/?$",
+  "scopes": [
+   "commercial_documents:all",
+   "commercial_documents:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/commercial_documents/[^/]+/appendices/?$",
+  "scopes": [
+   "commercial_documents:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/commercial_documents/[^/]+/invoice_lines/?$",
+  "scopes": [
+   "commercial_documents:all",
+   "commercial_documents:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/commercial_documents/[^/]+/invoice_line_sections/?$",
+  "scopes": [
+   "commercial_documents:all",
+   "commercial_documents:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/sepa_mandates/?$",
+  "scopes": [
+   "customer_mandates:all",
+   "customer_mandates:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/sepa_mandates/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/sepa_mandates/[^/]+/?$",
+  "scopes": [
+   "customer_mandates:all",
+   "customer_mandates:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/v2/sepa_mandates/[^/]+/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "re": "^/api/external/v2/sepa_mandates/[^/]+/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/gocardless_mandates/?$",
+  "scopes": [
+   "customer_mandates:all",
+   "customer_mandates:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/gocardless_mandates/[^/]+/?$",
+  "scopes": [
+   "customer_mandates:all",
+   "customer_mandates:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/gocardless_mandates/mail_requests/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/gocardless_mandates/[^/]+/cancellations/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/gocardless_mandates/[^/]+/associations/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/pro_account/mandate_requests/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/pro_account/mandate_migrations/?$",
+  "scopes": [
+   "customer_mandates:readonly",
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/pro_account/mandate_migrations/?$",
+  "scopes": [
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/pro_account/mandates/?$",
+  "scopes": [
+   "customer_mandates:readonly",
+   "customer_mandates:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/customer_invoices/[^/]+/custom_header_fields/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/e-invoices/imports/?$",
+  "scopes": [
+   "e_invoices:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/v2/purchase_requests/imports/?$",
+  "scopes": [
+   "purchase_requests:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/purchase_requests/[^/]+/?$",
+  "scopes": [
+   "purchase_requests:all",
+   "purchase_requests:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/purchase_requests/?$",
+  "scopes": [
+   "purchase_requests:all",
+   "purchase_requests:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/v2/bank_establishments/?$",
+  "scopes": [
+   "bank_establishments:readonly"
+  ]
+ }
+]

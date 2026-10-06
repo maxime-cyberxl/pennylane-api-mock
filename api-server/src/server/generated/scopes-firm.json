@@ -1,0 +1,379 @@
+[
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/?$",
+  "scopes": [
+   "companies:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/?$",
+  "scopes": [
+   "companies:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/fiscal_years/?$",
+  "scopes": [
+   "fiscal_years:all",
+   "fiscal_years:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/fiscal_years/?$",
+  "scopes": [
+   "fiscal_years:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/trial_balance/?$",
+  "scopes": [
+   "trial_balance:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/exports/analytical_general_ledgers/?$",
+  "scopes": [
+   "exports:agl"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/exports/analytical_general_ledgers/[^/]+/?$",
+  "scopes": [
+   "exports:agl"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/exports/fecs/?$",
+  "scopes": [
+   "exports:fec"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/exports/fecs/[^/]+/?$",
+  "scopes": [
+   "exports:fec"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/exports/software_specific_entries/?$",
+  "scopes": [
+   "exports:software_specific_entries"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/exports/software_specific_entries/[^/]+/?$",
+  "scopes": [
+   "exports:software_specific_entries"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/dms/files/?$",
+  "scopes": [
+   "dms_files:all",
+   "dms_files:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/dms/files/?$",
+  "scopes": [
+   "dms_files:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/dms/folders/?$",
+  "scopes": [
+   "dms_files:all",
+   "dms_files:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/dms/folders/?$",
+  "scopes": [
+   "dms_files:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_entries/?$",
+  "scopes": [
+   "ledger_entries:all",
+   "ledger_entries:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_entries/?$",
+  "scopes": [
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_entries/[^/]+/?$",
+  "scopes": [
+   "ledger_entries:all",
+   "ledger_entries:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_entries/[^/]+/?$",
+  "scopes": [
+   "ledger_entries:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/changelogs/dms_files/?$",
+  "scopes": [
+   "dms_files:all",
+   "dms_files:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/changelogs/ledger_entry_lines/?$",
+  "scopes": [
+   "ledger_entries:all",
+   "ledger_entries:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/changelogs/supplier_invoices/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/changelogs/customer_invoices/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/file_attachments/?$",
+  "scopes": [
+   "file_attachments:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/supplier_invoices/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/supplier_invoices/[^/]+/?$",
+  "scopes": [
+   "supplier_invoices:all",
+   "supplier_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/suppliers/?$",
+  "scopes": [
+   "suppliers:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/journals/?$",
+  "scopes": [
+   "journals:all",
+   "journals:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/journals/?$",
+  "scopes": [
+   "journals:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/journals/[^/]+/?$",
+  "scopes": [
+   "journals:all",
+   "journals:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/customer_invoices/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/customer_invoices/[^/]+/?$",
+  "scopes": [
+   "customer_invoices:all",
+   "customer_invoices:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_accounts/?$",
+  "scopes": [
+   "ledger_accounts:all",
+   "ledger_accounts:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_accounts/?$",
+  "scopes": [
+   "ledger_accounts:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_accounts/[^/]+/?$",
+  "scopes": [
+   "ledger_accounts:all",
+   "ledger_accounts:readonly"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_accounts/[^/]+/?$",
+  "scopes": [
+   "ledger_accounts:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_entry_lines/?$",
+  "scopes": [
+   "ledger_entries:all",
+   "ledger_entries:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_entry_lines/[^/]+/?$",
+  "scopes": [
+   "ledger_entries:all",
+   "ledger_entries:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/ledger_entry_lines/[^/]+/lettered_ledger_entry_lines/?$",
+  "scopes": [
+   "ledger_entries:all",
+   "ledger_entries:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/categories/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/categories/[^/]+/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/category_groups/[^/]+/categories/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/category_groups/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/category_groups/[^/]+/?$",
+  "scopes": [
+   "categories:all",
+   "categories:readonly"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/bank_accounts/?$",
+  "scopes": [
+   "bank_accounts:all",
+   "bank_accounts:readonly"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/bank_accounts/?$",
+  "scopes": [
+   "bank_accounts:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/transactions/?$",
+  "scopes": [
+   "transactions:readonly",
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "POST",
+  "re": "^/api/external/firm/v1/companies/[^/]+/transactions/?$",
+  "scopes": [
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "PUT",
+  "re": "^/api/external/firm/v1/companies/[^/]+/transactions/[^/]+/?$",
+  "scopes": [
+   "transactions:all"
+  ]
+ },
+ {
+  "method": "GET",
+  "re": "^/api/external/firm/v1/companies/[^/]+/customers/?$",
+  "scopes": [
+   "customers:readonly"
+  ]
+ }
+]
